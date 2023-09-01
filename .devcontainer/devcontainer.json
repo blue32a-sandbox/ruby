@@ -1,0 +1,16 @@
+{
+    "name": "Ruby",
+    "dockerComposeFile": ["../docker-compose.yml"],
+    "service": "ruby",
+    "workspaceFolder": "/usr/app",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "EditorConfig.EditorConfig",
+                "mhutchie.git-graph",
+                "rebornix.ruby"
+            ]
+        }
+    }
+}
